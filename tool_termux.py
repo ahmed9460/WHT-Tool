@@ -30,16 +30,17 @@ def termux():
     "13":"git clone https://github.com/emre/fb.py.git"  
     "14":"git clone https://github.com/Vairous7x/V7x-Fishing2.git"
     }
-
-    import os
-    def installer(number):
-        try:
-            os.system(tools[number])
-        except:
-            print("error not found...")
+import os
+def installer(number):
+    try:
+        os.system(tools[number])
+    except:
+        print("error not found...")
+def print1():        
     print(style_tools)
     user = input("enter number: ")
-    installer(user)
-termux()    
+installer(user)
+termux()
+print1()
 
 
