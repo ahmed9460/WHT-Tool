@@ -36,7 +36,10 @@ print(style)
 E4 = int(input("enter number:"))
 time.sleep(3)
 if E4 == 1:
-    import tool_termux
+    from tool_termux import*
+    installer(user)
+    termux()
+    print1()
     
 elif E4 == 7:
     print(""">>>>>>>>>>>welcome to in my tool<<<<<<<<<<<<<<<
