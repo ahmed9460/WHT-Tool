@@ -24,22 +24,20 @@ print('                                                                     ')
 
 import enter_user
 ############################################################################3
-style = """                              1-Tool-Termux              2-Dos attack
+style_tool= """                         1-Tool-Termux              2-Dos attack
 
                               3-fishing                  4-scaning
 
                               5-install-metasploit       6-info gathring
 
                               7-about me                 8-exit"""
-print(style)
+print(style_tool)
 ############################################################################
 E4 = int(input("enter number:"))
 time.sleep(3)
 if E4 == 1:
-    from tool_termux import*
-    installer(user)
-    termux()
-    print1()
+    time.sleep(3)
+    import tool-termux
     
 elif E4 == 7:
     print(""">>>>>>>>>>>welcome to in my tool<<<<<<<<<<<<<<<
