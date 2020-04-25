@@ -53,7 +53,31 @@ if E4 == 1:
     "13":"git clone https://github.com/Vairous7x/V7x-Fishing2.git"
     }
     #######################################################################
-    
+    style ="""
+    [1]Lazymux
+    [2]V7x-Tool
+    [3]Spammer-Grab
+    [4]ngrok
+    [5]hammer
+    [6]hulk
+    [7]wifite
+    [8]EasY_HaCk
+    [9]wifi-scanner
+    [10]sqlmap
+    [11]Tool-X
+    [12]fb
+    [13]V7x-Fishing2
+    """
+    #######################################################################
+    import os
+    def installer(number):
+        try:
+            os.system(tools[number])
+        except:
+            print('error 404 not found..')
+    print(style)
+    user = input("enter number tool: ")
+    installer(user)
     
 elif E4 == 7:
     print(""">>>>>>>>>>>welcome to in my tool<<<<<<<<<<<<<<<
