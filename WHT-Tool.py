@@ -37,7 +37,23 @@ E4 = int(input("enter number:"))
 time.sleep(3)
 if E4 == 1:
     time.sleep(3)
-    import tool-termux
+    tools = {
+    "1:"git clone https://github.com/Gameye98/Lazymux.git"
+    "2":"git clone https://github.com/Vairous7x/V7x-Tool.git"
+    "3":"git clone https://github.com/p4kl0nc4t/Spammer-Grab.git"
+    "4":"git clone https://github.com/inconshreveable/ngrok.git"
+    "5":"git clone https://github.com/cyweb/hammer.git"
+    "6":"git clone https://github.com/grafov/hulk.git"
+    "7":"git clone https://github.com/derv82/wifite.git"
+    "8":"git clone https://github.com/sabri-zaki/EasY_HaCk.git"
+    "9":"git clone https://github.com/israelbuitron/wifi-scanner.git"
+    "10":"git clone https://github.com/sqlmapproject/sqlmap.git"
+    "11":"git clone https://github.com/rajkumardusad/Tool-X.git"
+    "12":"git clone https://github.com/emre/fb.py.git"  
+    "13":"git clone https://github.com/Vairous7x/V7x-Fishing2.git"
+    }
+    #######################################################################
+    
     
 elif E4 == 7:
     print(""">>>>>>>>>>>welcome to in my tool<<<<<<<<<<<<<<<
