@@ -38,7 +38,7 @@ time.sleep(3)
 if E4 == 1:
     time.sleep(3)
     tools = {
-    "1:"git clone https://github.com/Gameye98/Lazymux.git"
+    "1":"git clone https://github.com/Gameye98/Lazymux.git"
     "2":"git clone https://github.com/Vairous7x/V7x-Tool.git"
     "3":"git clone https://github.com/p4kl0nc4t/Spammer-Grab.git"
     "4":"git clone https://github.com/inconshreveable/ngrok.git"
