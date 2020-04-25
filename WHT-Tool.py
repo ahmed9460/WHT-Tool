@@ -81,7 +81,7 @@ if E4 == 1:
     user = input("enter number tool: ")
     installer(user)
 ######################################################################    
-if E4 == 2:
+elif E4 == 2:
   t_Dos = {
     "1":"git clone https://github.com/cyweb/hammer.git"
     "2":"git clone https://github.com/grafov/hulk.git"
@@ -104,7 +104,7 @@ if E4 == 2:
     user1 = input("enter number tool: ")
     installer_dos(user1)
 ######################################################################
-if E4 = 6:
+elif E4 = 6:
   t_in = {
     "1":"git clone https://github.com/nmap/nmap.git"
     "2":"git clone https://github.com/maldevel/IPGeoLocation.git"
