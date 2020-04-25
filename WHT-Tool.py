@@ -76,7 +76,17 @@ if E4 == 1:
     print(style)
     user = input("enter number tool: ")
     installer(user)
-    
+######################################################################    
+if E4 == 2:
+  t_Dos = {
+    "1":"git clone https://github.com/cyweb/hammer.git"
+    "2":"git clone https://github.com/grafov/hulk.git"
+    "3":""
+    "4":""
+    "5":""
+    "6":""
+  }
+######################################################################
 elif E4 == 7:
     print(""">>>>>>>>>>>welcome to in my tool<<<<<<<<<<<<<<<
 
