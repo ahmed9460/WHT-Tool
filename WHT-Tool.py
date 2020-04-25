@@ -28,7 +28,7 @@ style_tool= """                              1-Tool-Termux              2-Dos at
 
                               3-fishing                  4-scaning
 
-                              5-install-metasploit       6-info gathring
+                              5-install-metasploit       6-info gathering
 
                               7-about me                 8-exit"""
 print(style_tool)
@@ -50,6 +50,7 @@ if E4 == 1:
     "10":"git clone https://github.com/rajkumardusad/Tool-X.git"
     "11":"git clone https://github.com/emre/fb.py.git"  
     "12":"git clone https://github.com/Vairous7x/V7x-Fishing2.git"
+    "13":"git clone https://github.com/No-Name-404/N404-Tool.git"  
     }
     #######################################################################
     style ="""
@@ -65,6 +66,7 @@ if E4 == 1:
     [10]Tool-X
     [11]fb
     [12]V7x-Fishing2
+    [13]N404-Tool
     """
     #######################################################################
     import os
@@ -81,12 +83,32 @@ if E4 == 2:
   t_Dos = {
     "1":"git clone https://github.com/cyweb/hammer.git"
     "2":"git clone https://github.com/grafov/hulk.git"
-    "3":""
-    "4":""
-    "5":""
-    "6":""
+    "3":"git clone https://github.com/Ha3MrX/DDos-Attack.git"
+    "4":"git clone https://github.com/jseidl/GoldenEye.git"
   }
+  style_d = """
+  [1]hammer
+  [2]hulk
+  [3]DDos-Attack
+  [4]ip location
+  """
+  import os
+  installer_dos(numberd):
+    try:
+      os.system(t_Dos[numberd])
+    except:
+      ptint("error 404 not found...")
+    print(style_d)
+    user1 = input("enter number tool: ")
+    installer_dos(user1)
 ######################################################################
+#if E4 = 6:
+  #t_in = {
+    #"1":"git clone https://github.com/nmap/nmap.git"
+    #"2":"git clone https://github.com/maldevel/IPGeoLocation.git"
+    #"3":"git clone https://github.com/shawarkhanethicalhacker/D-TECT-1.git"
+  #}
+#######################################################################
 elif E4 == 7:
     print(""">>>>>>>>>>>welcome to in my tool<<<<<<<<<<<<<<<
 
