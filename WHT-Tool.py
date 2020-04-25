@@ -55,15 +55,20 @@ if E4 == 1:
     }
     #######################################################################
     style ="""
-    [1]Lazymux              [2]Spammer-Grab         [3]ngrok   
-  
-    [4]hammer               [5]hulk                 [6]wifite
-                  
-    [7]EasY_HaCk            [8]wifi-scanner         [9]sqlmap
-    
-    [10]Tool-X              [11]fb                  [12]V7x-Fishing2
-    
-    [13]N404-Tool           [14]BeeF-TooL
+    [1]Lazymux 
+    [2]Spammer-Grab
+    [3]ngrok
+    [4]hammer                                
+    [5]hulk
+    [6]wifite
+    [7]EasY_HaCk                     
+    [8]wifi-scanner
+    [9]sqlmap
+    [10]Tool-x              
+    [11]fb
+    [12]V7x-Fishing2
+    [13]N404-Tool
+    [14]BeeF-TooL
     """
     #######################################################################
     import os
@@ -84,10 +89,10 @@ if E4 == 2:
     "4":"git clone https://github.com/jseidl/GoldenEye.git"
   }
   style_d = """
-  [1]hammer              [2]hulk   
-  
-  [3]DDos-Attack         [4]Golden-EYE
-  
+  [1]hammer  
+  [2]hulk
+  [3]DDos-Attack         
+  [4]Golden-EYE
   """
   import os
   installer_dos(numberd):
@@ -107,10 +112,10 @@ if E4 = 6:
     "4":"git clone https://github.com/UndeadSec/EvilURL.git"
   }
   style_in = """
-  [1]nmap              [2]ip location
-  
-  [3]D-TECT            [4]EVIL-URL
-  
+  [1]nmap              
+  [2]ip location
+  [3]D-TECT
+  [4]EVIL-URL
   """
   import os
   def installer_inf(numberi):
