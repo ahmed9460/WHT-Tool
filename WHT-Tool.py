@@ -21,9 +21,13 @@ print(c1+'|  __|  \___  | | |\   | |  __|       | | /  | / /   |  _  |   | |')
 print(c1+'| |___      | | | | \  | | |          | |/   |/ /    | | | |   | |')   
 print(c1+'|_____|     |_| |_|  \_| |_|          |___/|___/     |_| |_|   |_|')
 print('                                                                     ')
-
-
-
+#########################################################################################
+E4 = input("please enter password:")
+if E4 == 'E4NF':
+  time.sleep(5)
+  print('done....')
+else:
+  print("error 404 not found...")
 style_tool= """                              1-Tool-Termux              2-Dos attack
 
                               3-fishing                  4-scaning
