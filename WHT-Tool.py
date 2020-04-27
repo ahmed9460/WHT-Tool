@@ -70,10 +70,32 @@ if E4 == 1:
   print(style)  
   user = input("enter number tool:")
   installer(user)
+elif E4 == 2:
+  tools_dos = {
+   '1':'git clone https://github.com/cyweb/hammer.git',
+   '2':'git clone https://github.com/grafov/hulk.git',
+   '3':'git clone https://github.com/Ha3MrX/DDos-Attack.git',
+   '4':'git clone https://github.com/jseidl/GoldenEye.git',
+  }  
+  style_dos = """
+  [1]hammer               [2]hulk
+  
+  [3]DDos-Attack          [4]GoldenEye
+  """
+  import os
+  installer_dos(number1):
+    try:
+      os.system(tools_dos[number1])
+    except:
+      print("unknow.....")
+  print(style_dos)
+  user1 = input("enter number:")
+  installer_dos(user1)
 elif E4 == 6:
   print""">>>>>>>>welcome<<<<<<<<
   
   my name is mohamed elsayed 
   my channal is youtup: https://www.youtube.com/channel/UC59cjUqBqiNmvDHF_XORrTA"""
 elif E4 == 7:
+  time.sleep(2)
   exit()
