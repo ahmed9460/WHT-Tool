@@ -25,7 +25,7 @@ print('                                                                     ')
 import enter
 import style_tool
 if E4 == 1:
-  n
+  
   tools = {
   '1':'git clone https://github.com/Gameye98/Lazymux.git',
   '2':'git clone https://github.com/p4kl0nc4t/Spammer-Grab.git',
