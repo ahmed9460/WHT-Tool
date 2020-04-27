@@ -24,6 +24,7 @@ print('                                                                     ')
 #########################################################################################
 import enter
 import style_tool
+E4 = input("enter number:")
 if E4 == 1:
   
   tools = {
