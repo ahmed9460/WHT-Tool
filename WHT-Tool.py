@@ -74,4 +74,6 @@ elif E4 == 6:
   print""">>>>>>>>welcome<<<<<<<<
   
   my name is mohamed elsayed 
-  my channal is youtup: https://www.youtube.com/channel/UC59cjUqBqiNmvDHF_XORrTA
+  my channal is youtup: https://www.youtube.com/channel/UC59cjUqBqiNmvDHF_XORrTA"""
+elif E4 == 7:
+  exit()
