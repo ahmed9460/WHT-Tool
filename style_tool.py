@@ -8,3 +8,4 @@ style_tool = """                         [1]TooL-Termux                  [2]Dos 
                                              [7]exit"""
 
 print(style_tool)
+E4 = int(input("enter number:"))
