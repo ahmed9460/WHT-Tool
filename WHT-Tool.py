@@ -22,16 +22,7 @@ print(c1+'| |___      | | | | \  | | |          | |/   |/ /    | | | |   | |')
 print(c1+'|_____|     |_| |_|  \_| |_|          |___/|___/     |_| |_|   |_|')
 print('                                                                     ')
 #########################################################################################
-E4 = input("please enter password:")
-if E4 == 'E4NF':
-  time.sleep(5)
-  print('done....')
-else:
-  print("error 404 not found...")
-exit()
-style_tool = """
-                      [1]tool-Termux
-"""
+
 print(style_tool)
 tools = {
 '1':'git clone https://github.com/Gameye98/Lazymux.git'
