@@ -70,3 +70,8 @@ if E4 == 1:
   print(style)  
   user = input("enter number tool:")
   installer(user)
+elif E4 == 6:
+  print""">>>>>>>>welcome<<<<<<<<
+  
+  my name is mohamed elsayed 
+  my channal is youtup: https://www.youtube.com/channel/UC59cjUqBqiNmvDHF_XORrTA
