@@ -25,15 +25,4 @@ print('                                                                     ')
 import enter
 import style_tool
 E4 = input("enter number:")
-############################################################################################
-if E4 == 1:
-    import tool
-    import os
-    def installer(number):
-        try:
-            os.system(tool[numbrt])
-        except:
-            print("error 404 not found...")
-    import termux
-    user = input("enter number tool:")
-    insraller(user)
+#####################################################
