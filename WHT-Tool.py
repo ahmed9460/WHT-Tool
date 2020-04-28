@@ -51,3 +51,6 @@ if E4 == 1:
             os.system(tools[number])
         except:
             print("error 404 not found....")
+   import termux
+   user = input("enter number tool: ")
+   installer(user) 
