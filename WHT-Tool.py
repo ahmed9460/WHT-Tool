@@ -83,14 +83,14 @@ elif E4 == 2:
   [3]DDos-Attack          [4]GoldenEye
   """
   import os
-  installer_dos(number1):
+  installer(number):
     try:
-      os.system(tools_dos[number1])
+      os.system(tools_dos[number])
     except:
       print("unknow.....")
   print(style_dos)
   user1 = input("enter number:")
-  installer_dos(user1)
+  installer(user1)
 elif E4 == 6:
   print""">>>>>>>>welcome<<<<<<<<
   
